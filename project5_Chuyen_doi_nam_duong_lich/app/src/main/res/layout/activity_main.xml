@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="194dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:layout_marginStart="176dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_border"
@@ -60,10 +60,10 @@
 
     <TextView
         android:id="@+id/text2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
         android:text="Năm âm lịch"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,15 +71,17 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="201dp"
-        android:layout_height="29dp"
+        android:layout_width="221dp"
+        android:layout_height="37dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Kết quả năm âm lịch"
         android:minHeight="48dp"
         android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/text2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/text2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
