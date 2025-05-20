@@ -38,9 +38,22 @@ public class MainActivity extends AppCompatActivity {
         studentList.add(new Student("Nguyễn Văn A", 17, "12A1"));
         studentList.add(new Student("Lê Thị B", 18, "12A2"));
         studentList.add(new Student("Phạm Văn C", 17, "12A3"));
+        studentList.add(new Student("Trần Thị D", 19, "12A4"));
+        studentList.add(new Student("Nguyễn Văn E", 17, "12A5"));
+        studentList.add(new Student("Lê Thị F", 18, "12A6"));
+        studentList.add(new Student("Phạm Văn G", 17, "12A7"));
+        studentList.add(new Student("Trần Thị H", 19, "12A8"));
+        studentList.add(new Student("Nguyễn Văn I", 17, "12A9"));
+        studentList.add(new Student("Lê Thị K", 18, "12A10"));
+        studentList.add(new Student("Phạm Văn L", 17, "12A11"));
+        studentList.add(new Student("Trần Thị M", 19, "12A12"));
+        studentList.add(new Student("Nguyễn Văn N", 17, "12A13"));
+        studentList.add(new Student("Lê Thị O", 18, "12A14"));
+        studentList.add(new Student("Phạm Văn P", 17, "12A15"));
+        studentList.add(new Student("Trần Thị Q", 19, "12A16"));
 
         adapter = new StudentAdapter(this, studentList);
-        recyclerView.setLayoutManager(new GridLayoutManager(this,3));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
 
     }
