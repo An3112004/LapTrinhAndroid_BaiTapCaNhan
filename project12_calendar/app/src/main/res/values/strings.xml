@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="title">Calendar Notes</string>
+    <string name="today">Hôm Nay:</string>
+    <string name="enter_work">Nhập ...</string>
+    <string name="hour">Giờ</string>
+    <string name="minute">Phút</string>
+    <string name="add_work">Thêm</string>
+</resources>
